@@ -71,14 +71,14 @@ function construirSecciones(secciones) {
 // Carrusel dinámico (fade + swipe)
 // ------------------------------------
 function inicializarCarrusel() {
-  const fotos = ["banner.webp", "/xv/6.webp", "/sesiones/5.webp", "/xv/5.webp"];
+  const fotos = ["banner.webp", "/carrusel/1.webp", "/carrusel/2.webp", "/carrusel/3.webp"];
   const container = document.getElementById("carousel-container");
 
   fotos.forEach((name, i) => {
     const img = document.createElement("img");
     img.src = `../../public/images/${name}`;
     img.className = `
-      carousel-item absolute inset-0 w-full h-full object-fit
+      carousel-item absolute inset-0 w-full h-full object-cover
       transition-opacity duration-700 
       ${i === 0 ? "opacity-100" : "opacity-0"}
     `;

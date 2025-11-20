@@ -22,14 +22,14 @@
       "descripcion": "Tu Negocio en una foto.",
       "color": "bg-gray-700",
       "carpeta": "productos",
-    "fotos": ["1.webp", "2.webp", "3.webp","4.webp", "5.webp"]
+    "fotos": ["1.webp", "2.webp", "3.webp"]
     },
     {
-      "id": "bodas",
-      "titulo": "Bodas",
-      "descripcion": "Historias de amor inmortalizadas.",
+      "id": "arte",
+      "titulo": "Artísticas",
+      "descripcion": "Arte en una fotografía",
       "color": "bg-gray-600",
-      "carpeta": "bodas",
+      "carpeta": "arte",
     "fotos": ["1.webp", "2.webp", "3.webp"]
     }
   ]
