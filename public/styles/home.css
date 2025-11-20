@@ -2,7 +2,7 @@
 
 #home {
   & #banner {
-    background-image: url("/public/images/banner.webp");
+    background-image: url("../../public/images/banner.webp");
     background-size: cover; /* Cubre toda la pantalla */
     background-repeat: no-repeat; /* No repite la imagen */
     background-position: top; /* Siempre empieza desde arriba */
