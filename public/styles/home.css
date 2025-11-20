@@ -1,0 +1,20 @@
+@import url("./index.css");
+
+#home {
+  & #banner {
+    background-image: url("/public/images/banner.webp");
+    background-size: cover; /* Cubre toda la pantalla */
+    background-repeat: no-repeat; /* No repite la imagen */
+    background-position: top; /* Siempre empieza desde arriba */
+    height: 100vh; /* Usa el alto visible del navegador */
+    width: 100%; /* Asegura que ocupe todo el ancho */
+    
+    & #title{
+        font-size: 7vw;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
+
+
+  
+}

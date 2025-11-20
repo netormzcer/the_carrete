@@ -1,0 +1,36 @@
+{
+  "secciones": [
+    {
+      "id": "sesiones",
+      "titulo": "Sesiones Fotográficas",
+      "descripcion": "Retratos profesionales en exterior e interior.",
+      "color": "bg-gray-900",
+      "carpeta": "sesiones",
+      "fotos": ["1.webp", "2.webp", "3.webp"]
+    },
+    {
+      "id": "xv",
+      "titulo": "XV Años",
+      "descripcion": "Momentos llenos de estilo y personalidad.",
+      "color": "bg-gray-800",
+      "carpeta": "xv",
+     "fotos": ["1.webp", "2.webp", "3.webp"]
+    },
+    {
+      "id": "productos",
+      "titulo": "Productos",
+      "descripcion": "Tu Negocio en una foto.",
+      "color": "bg-gray-700",
+      "carpeta": "productos",
+    "fotos": ["1.webp", "2.webp", "3.webp","4.webp", "5.webp"]
+    },
+    {
+      "id": "bodas",
+      "titulo": "Bodas",
+      "descripcion": "Historias de amor inmortalizadas.",
+      "color": "bg-gray-600",
+      "carpeta": "bodas",
+    "fotos": ["1.webp", "2.webp", "3.webp"]
+    }
+  ]
+}

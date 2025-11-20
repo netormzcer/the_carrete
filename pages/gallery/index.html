@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galería</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="/public/images/logo-trans.png" />
+
+</head>
+
+<body class="bg-black text-white">
+
+  <header id="navbar"></header>
+
+  <div id="submenu" class="w-full bg-gray-900 py-3 shadow-xl"></div>
+
+  <!-- CARRUSEL -->
+  <section class="relative w-full max-w-7xl mx-auto mt-10 overflow-hidden">
+    <div id="carousel-container" class="relative h-[250px] sm:h-[350px] md:h-[690px]"></div>
+
+    <button id="prev"
+      class="absolute left-3 top-1/2 -translate-y-1/2 bg-black/40 px-3 py-2 rounded-full text-2xl">❮</button>
+    <button id="next"
+      class="absolute right-3 top-1/2 -translate-y-1/2 bg-black/40 px-3 py-2 rounded-full text-2xl">❯</button>
+  </section>
+
+  <!-- Aquí se inyectarán TODAS las secciones -->
+  <div id="galeria-dinamica" class="mt-20"></div>
+
+  <script src="/public/scripts/galeria.js"></script>
+</body>
+
+</html>

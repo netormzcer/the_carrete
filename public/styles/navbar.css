@@ -1,0 +1,11 @@
+#nav-bar {
+  & #title {
+  }
+
+  & #menu {
+    & .item:hover {
+      color: #e6c90a; /* gray-300 */
+    
+    }
+  }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/public/images/logo-trans.png" />
+
+  <meta name="theme-color" content="#000000" />
+  <title>The Carrete</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/public/styles/home.css">
+</head>
+
+
+<body id="home" class="bg-black text-white">
+<header id="navbar"></header>
+  <!-- NAVBAR -->
+
+
+  <!-- HERO FULLSCREEN -->
+  <section id="banner" class="h-screen w-full bg-cover bg-center flex items-center justify-center relative">
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-black/50"></div>
+
+    <!-- Title -->
+    <div>
+      <h2 id="title" class="relative z-10 text-4xl md:text-6xl font-bold text-center tracking-wide">
+        The Carrete - Fotografía
+      </h2>
+
+      <div class="text-center">
+
+        <!-- Botón -->
+        <a href="/pages/gallery/index.html"
+          class=" relative z-10 mt-6 inline-block px-6 py-3 bg-black/60 text-white text-3xl rounded-full backdrop-blur-sm border border-white/20 hover:bg-white/80 transition">
+          Ver Galería
+        </a>
+
+        <!-- Redes -->
+        <div class="flex justify-center gap-4 mt-6 w-full">
+          <!-- Facebook -->
+          <a href="https://www.facebook.com/ithecarrete" target="_blank"
+            class="relative w-12 h-12 flex items-center justify-center rounded-full bg-black/60 border border-white/10 hover:bg-white/80 transition">
+            <img src="/public/images/facebook.png" class="w-6 invert" alt="Facebook">
+          </a>
+
+          <!-- WhatsApp -->
+          <a href="https://wa.me/528110200177" target="_blank"
+            class="relative w-12 h-12 flex items-center justify-center rounded-full bg-black/60 border border-white/10 hover:bg-white/80 transition">
+            <img src="/public/images/whatsapp.png" class="w-6 invert" alt="WhatsApp">
+          </a>
+
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/thecarrete/" target="_blank"
+            class="relative w-12 h-12 flex items-center justify-center rounded-full bg-black/60 border border-white/10 hover:bg-white/80 transition">
+            <img src="/public/images/instagram.png" class="w-6 invert" alt="Instagram">
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</body>
+
+<script>
+  fetch("/pages/section/navbar.html")
+    .then(res => res.text())
+    .then(html => {
+      document.querySelector("#navbar").innerHTML = html;
+    });
+</script>
+
+</html>
