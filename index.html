@@ -4,12 +4,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" href="/public/images/logo-trans.png" />
+  <link rel="icon" href="./public/images/logo-trans.png" />
 
   <meta name="theme-color" content="#000000" />
   <title>The Carrete</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="/public/styles/home.css">
+  <link rel="stylesheet" href="./public/styles/home.css">
 </head>
 
 
@@ -32,7 +32,7 @@
       <div class="text-center">
 
         <!-- Botón -->
-        <a href="/pages/gallery/index.html"
+        <a href="./pages/gallery/index.html"
           class=" relative z-10 mt-6 inline-block px-6 py-3 bg-black/60 text-white text-3xl rounded-full backdrop-blur-sm border border-white/20 hover:bg-white/80 transition">
           Ver Galería
         </a>
@@ -42,19 +42,19 @@
           <!-- Facebook -->
           <a href="https://www.facebook.com/ithecarrete" target="_blank"
             class="relative w-12 h-12 flex items-center justify-center rounded-full bg-black/60 border border-white/10 hover:bg-white/80 transition">
-            <img src="/public/images/facebook.png" class="w-6 invert" alt="Facebook">
+            <img src="./public/images/facebook.png" class="w-6 invert" alt="Facebook">
           </a>
 
           <!-- WhatsApp -->
           <a href="https://wa.me/528110200177" target="_blank"
             class="relative w-12 h-12 flex items-center justify-center rounded-full bg-black/60 border border-white/10 hover:bg-white/80 transition">
-            <img src="/public/images/whatsapp.png" class="w-6 invert" alt="WhatsApp">
+            <img src="./public/images/whatsapp.png" class="w-6 invert" alt="WhatsApp">
           </a>
 
           <!-- Instagram -->
           <a href="https://www.instagram.com/thecarrete/" target="_blank"
             class="relative w-12 h-12 flex items-center justify-center rounded-full bg-black/60 border border-white/10 hover:bg-white/80 transition">
-            <img src="/public/images/instagram.png" class="w-6 invert" alt="Instagram">
+            <img src="./public/images/instagram.png" class="w-6 invert" alt="Instagram">
           </a>
         </div>
 
@@ -65,7 +65,7 @@
 </body>
 
 <script>
-  fetch("/pages/section/navbar.html")
+  fetch("./pages/section/navbar.html")
     .then(res => res.text())
     .then(html => {
       document.querySelector("#navbar").innerHTML = html;

@@ -1,7 +1,7 @@
 // ------------------------------------
 // Navbar
 // ------------------------------------
-fetch("/pages/section/navbar.html")
+fetch("../../pages/section/navbar.html")
   .then(r => r.text())
   .then(html => (document.querySelector("#navbar").innerHTML = html));
 
@@ -9,7 +9,7 @@ fetch("/pages/section/navbar.html")
 // ------------------------------------
 // Cargar JSON principal
 // ------------------------------------
-fetch("/public/data/galeria.json")
+fetch("../../public/data/galeria.json")
   .then(r => r.json())
   .then(data => {
     construirSubmenu(data.secciones);
@@ -57,7 +57,7 @@ function construirSecciones(secciones) {
 
     sec.fotos.forEach(nombre => {
       const img = document.createElement("img");
-      img.src = `/public/images/${sec.carpeta}/${nombre}`;
+      img.src = `../../public/images/${sec.carpeta}/${nombre}`;
       img.className = "w-full object-cover rounded-lg aspect-[2/3]";
       grid.appendChild(img);
     });
@@ -76,7 +76,7 @@ function inicializarCarrusel() {
 
   fotos.forEach((name, i) => {
     const img = document.createElement("img");
-    img.src = `/public/images/${name}`;
+    img.src = `../../public/images/${name}`;
     img.className = `
       carousel-item absolute inset-0 w-full h-full object-fit
       transition-opacity duration-700 
