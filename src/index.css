@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Compensa la altura del header fijo al hacer scroll a una sección */
+  section[id] {
+    scroll-margin-top: 88px;
+  }
+
+  body {
+    @apply bg-carbon-950 text-paper antialiased;
+    font-family: theme('fontFamily.sans');
+  }
+
+  ::selection {
+    @apply bg-ember-500/40 text-paper;
+  }
+
+  /* Foco de teclado visible y consistente en toda la app */
+  :focus-visible {
+    outline: 2px solid theme('colors.ember.400');
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* En iOS Safari, background-attachment: fixed en un elemento con imagen
+     puede causar problemas de rendimiento/scroll. Se resuelve por breakpoint
+     usando bg-scroll en móvil y bg-fixed en escritorio (ver BackgroundLayer). */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
