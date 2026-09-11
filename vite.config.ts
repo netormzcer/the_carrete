@@ -6,7 +6,7 @@ import react from '@vitejs/plugin-react';
 // - Si publicas en un dominio propio o en usuario.github.io (repo raíz) -> usa base: './' o '/'
 // './' (ruta relativa) es la opción más segura porque funciona en ambos casos sin tocar nada más.
 export default defineConfig({
-  base: '/the_carrete/',
+  base: './',
   plugins: [react()],
   build: {
     outDir: 'dist',
