@@ -72,7 +72,14 @@ export default function Contact() {
                 <SocialIcon key={social.id} social={social} className="h-5 w-5 text-carbon-300 hover:text-ember-400" />
               ))}
             </div>
+
+            <img
+            className="bg-white rounded-full m-auto p-0 shrink-0 object-contain size-[120px] md:mt-2"
+            src="/img/the_carrete.webp"
+            alt="The Carrete"
+          />
           </motion.div>
+          
 
           {/* Formulario */}
           <motion.form

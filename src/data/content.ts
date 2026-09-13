@@ -41,7 +41,7 @@ export const HERO_SLIDES: HeroSlide[] = [
     id: 'slide-2',
     image: './img/c2.webp',
     eyebrow: 'Bodas y celebraciones',
-    title: 'Momentos reales, sin poses forzadas',
+    title: 'Los mejores recuerdos en las mejores fotos',
     subtitle:
       'Cobertura completa de bodas y eventos con un ojo entrenado para lo espontáneo.',
   },
@@ -49,7 +49,7 @@ export const HERO_SLIDES: HeroSlide[] = [
     id: 'slide-3',
     image: './img/c3.webp',
     eyebrow: 'Producto y marca',
-    title: 'Imágenes que venden sin gritar',
+    title: 'Una foto convence más que mil palabras',
     subtitle: 'Fotografía comercial limpia, pensada para catálogo, e‑commerce y redes.',
   },
 ];
@@ -61,7 +61,7 @@ export const SERVICES: Service[] = [
     title: 'Retratos',
     description:
       'Sesiones individuales o en pareja, en estudio o exteriores, con dirección de poses incluida.',
-    features: ['1–2 horas de sesión', '15 fotos editadas', 'Locación a elegir'],
+    features: ['1 hora de sesión', 'fotos editadas', 'Locación a elegir'],
   },
   {
     id: 'bodas',
@@ -69,7 +69,7 @@ export const SERVICES: Service[] = [
     title: 'Bodas',
     description:
       'Cobertura del día completo: preparativos, ceremonia, fiesta y los detalles que nadie más nota.',
-    features: ['Cobertura de 8 horas', 'Galería digital privada', 'Segundo fotógrafo opcional'],
+    features: ['Cobertura de evento', 'Galería digital privada', 'Captura de los mejores momentos'],
   },
   {
     id: 'eventos',
@@ -77,7 +77,7 @@ export const SERVICES: Service[] = [
     title: 'Eventos',
     description:
       'Corporativos, cumpleaños, graduaciones. Registro discreto sin interrumpir el momento.',
-    features: ['Tarifa por hora', 'Entrega en 72 horas', 'Uso comercial incluido'],
+    features: ['Tarifa por hora', 'Entrega en 3 días', 'Uso comercial incluido'],
   },
   {
     id: 'producto',

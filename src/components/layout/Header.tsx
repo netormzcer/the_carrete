@@ -53,15 +53,17 @@ export default function Header() {
         </nav>
 
         {/* Logo / título central */}
-        <a href="#inicio" className="flex items-center gap-2 justify-self-start md:justify-self-center">
-          <img
-            className="h-8 w-8 shrink-0 object-contain md:h-8 md:w-8 md:mt-2"
-            src="/img/the_carrete.webp"
-            alt="The Carrete"
-          />
-          <span className="font-display text-3xl font-semibold tracking-tightest text-paper md:text-5xl my-5 md:my-0">
+        <a
+          href="#inicio"
+          className="absolute left-1/2 flex -translate-x-1/2 flex-col items-center gap-2 md:relative md:left-auto md:translate-x-0 md:justify-self-center"
+        >
+          
+          <span className="font-ephesis text-3xl tracking-tightest text-paper md:text-8xl my-5 md:my-0">
             The Carrete
           </span>
+
+          
+          
         </a>
 
         {/* Links derecha (solo escritorio) */}

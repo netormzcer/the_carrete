@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Ephesis';
+  src: url('/fonts/Ephesis-Regular.ttf') format('truetype');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -30,6 +38,11 @@
 }
 
 @layer utilities {
+  .font-ephesis {
+    font-family: 'Ephesis', cursive;
+    font-weight: 400;
+  }
+
   .text-balance {
     text-wrap: balance;
   }

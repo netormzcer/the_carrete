@@ -37,14 +37,14 @@ export default function About() {
             className="flex flex-col justify-center gap-6"
           >
             <p className="max-w-prose text-base leading-relaxed text-carbon-200 sm:text-lg">
-              Empecé disparando en carretes de 35mm por lo que me obligaba a
-              ser: sin borrar, sin repetir la toma cien veces. Esa disciplina
-              se quedó conmigo aunque hoy trabaje en digital. Busco el
-              instante real antes que la pose perfecta.
+              Lo que comenzo como un hobbie se convirtio en una parte profesional en mi vida.
+              Fiel creyente que los mejores momentos se tienen que capturar en una foto.
+              Cada que salgo con mi camara, aprendo y descubro mas el mundo.
+              No solo es estar detras de la camara, es comprender el contexto y acoplarte al lugar.
             </p>
             <p className="max-w-prose text-base leading-relaxed text-carbon-300">
               Con base en Nuevo León y Tamaulipas, trabajo con personas y
-              marcas en todo el país que quieren fotografía honesta: retratos
+              marcas en toda la región que quieren fotografía honesta: retratos
               que se sienten como la persona es, bodas que se recuerdan sin
               exagerar, y producto que vende porque se ve real.
             </p>
